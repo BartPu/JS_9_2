@@ -7,7 +7,8 @@ console.log(allNames);
 var newName = 'Misandre';
 
 if (allNames.indexOf(newName) === -1) {
-    var allNames = allNames.push(newName);
+    allNames.push(newName);
+    console.log(allNames)
 } else {
     console.log('Already exists in the array, pls. enter new name.');
 };
